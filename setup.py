@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup( name='infrastruction',
-    version = '0.0.1',
+    version = '0.0.2',
     description = 'Infrastructure bootstrapping for Modern Django applications',
     author = 'Daryl Antony',
     author_email = 'daryl@commoncode.com.au',
@@ -21,6 +21,7 @@ setup( name='infrastruction',
         'Django>=1.4',
         'ipdb',
         'django-filebrowser>=3.4', # installs django filebrowser & grappelli for Django>=1.4
+        'pillow', # PIL for filebrowserj
         'django-extensions',
         'django-devserver',
         'django-debug-toolbar',
