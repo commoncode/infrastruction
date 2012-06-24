@@ -19,5 +19,9 @@ setup( name='infrastruction',
     ],
     install_requires = [
         'Django>=1.4',
+        'ipdb',
+        'django-extenstions',
+        'django-devserver',
+        'django-debugtoolbar',
     ]
 )
