@@ -22,6 +22,6 @@ setup( name='infrastruction',
         'ipdb',
         'django-extensions',
         'django-devserver',
-        'django-debugtoolbar',
+        'django-debug-toolbar',
     ]
 )
