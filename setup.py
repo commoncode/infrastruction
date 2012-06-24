@@ -20,6 +20,7 @@ setup( name='infrastruction',
     install_requires = [
         'Django>=1.4',
         'ipdb',
+        'django-filebrowser>=3.4', # installs django filebrowser & grappelli for Django>=1.4
         'django-extensions',
         'django-devserver',
         'django-debug-toolbar',
