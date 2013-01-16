@@ -1,9 +1,9 @@
-INSTALLED_APPS = (
+INSTALLED_APPS = [
 
 	'infrastruction',
 
 	# Intrastructure apps
-	'grappelli.dashboard',
+	# 'grappelli.dashboard', # XXX somethings messed up with the dashboard?
     'grappelli',
     'filebrowser',
 
@@ -13,7 +13,7 @@ INSTALLED_APPS = (
     # Development helpers
 	'django_extensions',
 	'devserver',
-)
+]
 
 # Filebrowser
 FILEBROWSER_DEBUG = True
@@ -35,4 +35,4 @@ GRAPPELLI_ADMIN_URL = '/admin/'
 # TODO
 # Test for and create a dashboard file
 
-GRAPPELLI_INDEX_DASHBOARD = '.dashboard.CustomIndexDashboard'
+GRAPPELLI_INDEX_DASHBOARD = 'dashboard.CustomIndexDashboard'
